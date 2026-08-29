@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Initial Wisconsin apartment and rental-home tour shortlist, with Beaver Dam driving comparisons."><title>Wisconsin Apartment Tour Shortlist</title><style>
+    :root {
+      --bg: #f5f4ef;
+      --surface: #ffffff;
+      --surface-2: #efeee8;
+      --ink: #1f2623;
+      --muted: #68706c;
+      --line: #dedfd9;
+      --accent: #214d3b;
+      --accent-soft: #e5eee9;
+      --warm: #7d5838;
+      --shadow: 0 10px 30px rgba(26, 34, 30, .07);
+      --radius: 22px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+    header { padding: 72px 0 34px; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 7px 11px; border: 1px solid var(--line); border-radius: 999px;
+      background: rgba(255,255,255,.55); color: var(--muted); font-size: 13px; font-weight: 700;
+      letter-spacing: .02em;
+    }
+    h1 { margin: 20px 0 14px; font-size: clamp(38px, 7vw, 68px); line-height: .98; letter-spacing: -.045em; max-width: 850px; }
+    .lede { max-width: 760px; margin: 0; color: var(--muted); font-size: clamp(17px, 2.2vw, 21px); }
+    .criteria { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 9px; }
+    .pill { background: var(--accent-soft); color: var(--accent); padding: 8px 11px; border-radius: 999px; font-size: 13px; font-weight: 750; }
+    .pill.neutral { background: var(--surface-2); color: #5d625f; }
+    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin: 46px 0 18px; }
+    .section-head h2 { margin: 0; font-size: 25px; letter-spacing: -.025em; }
+    .section-head p { margin: 0; color: var(--muted); font-size: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+    .card-inner { padding: 24px; }
+    .topline { display: flex; align-items: start; justify-content: space-between; gap: 14px; }
+    .place h3 { margin: 0 0 4px; font-size: 25px; letter-spacing: -.03em; }
+    .location { margin: 0; color: var(--muted); font-size: 14px; }
+    .tag { flex: 0 0 auto; padding: 7px 10px; border-radius: 999px; background: var(--surface-2); color: #5e6460; font-size: 12px; font-weight: 800; }
+    .tag.must { background: var(--accent); color: white; }
+    .tag.future { background: #f5eadd; color: var(--warm); }
+    .why { margin: 18px 0 19px; font-size: 15.5px; }
+    .routes { border-top: 1px solid var(--line); }
+    .route { display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 12px; padding: 13px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+    .route:last-child { border-bottom: 0; }
+    .route-label strong { display: block; font-size: 13px; }
+    .route-label span { color: var(--muted); font-size: 12px; }
+    .route-value { font-weight: 800; white-space: nowrap; }
+    .route a { color: var(--accent); text-decoration: none; font-size: 12px; font-weight: 800; white-space: nowrap; }
+    .actions { display: flex; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 0 15px; border-radius: 11px; text-decoration: none; font-size: 13px; font-weight: 800; border: 1px solid var(--line); }
+    .btn.primary { background: var(--accent); color: white; border-color: var(--accent); }
+    .btn.secondary { background: white; color: var(--ink); }
+    .note { margin: 0; padding: 19px 22px; border: 1px dashed #c7cac4; border-radius: 16px; color: var(--muted); font-size: 13px; background: rgba(255,255,255,.4); }
+    footer { padding: 42px 0 64px; color: var(--muted); font-size: 12px; }
+    footer strong { color: var(--ink); }
+    .pricebox { margin: 16px 0; padding: 15px 16px; border-radius: 14px; background: #f4f8f5; border: 1px solid #d8e5dc; }
+    .pricebox .price-title { font-size: 12px; text-transform: uppercase; letter-spacing: .055em; font-weight: 850; color: var(--accent); margin-bottom: 5px; }
+    .pricebox .price-main { font-weight: 850; font-size: 16px; letter-spacing: -.01em; }
+    .pricebox .price-note { color: var(--muted); font-size: 12.5px; margin-top: 5px; }
+    .bullets { margin: 14px 0 20px; padding-left: 20px; }
+    .bullets li { margin: 7px 0; font-size: 14px; }
+    .bullets strong { font-weight: 800; }
+    .timing-note { margin-top: 18px; padding: 14px 16px; border-radius: 14px; background: #f7f0e8; color: #6c4c31; border: 1px solid #eadaca; font-size: 13.5px; }
+    .photo-strip { display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 18px 0 16px; }
+    .photo-card { border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: #fafaf7; }
+    .photo-card img { width: 100%; height: 160px; display:block; object-fit: cover; object-position: top center; background: #ecebe4; }
+    .photo-caption { padding: 8px 10px; font-size: 12px; font-weight: 750; color: #4a534f; background: #fbfbf8; border-top: 1px solid var(--line); }
+    @media (max-width: 760px) {
+      header { padding-top: 48px; }
+      .grid { grid-template-columns: 1fr; }
+      .section-head { align-items: start; flex-direction: column; }
+      .route { grid-template-columns: 1fr auto; }
+      .route a { grid-column: 1 / -1; }
+      .actions { flex-direction: column; }
+      .btn { width: 100%; }
+    }
+  </style></head><body><header>
+<div class="wrap">
+<div class="eyebrow">Wisconsin move · first tour list</div>
+<h1>Places actually worth seeing.</h1>
+<p class="lede">A deliberately short list of rentals that offer something beyond “new appliances + a clubhouse.” The benchmark is real build quality, quiet, professional management, or house-like privacy without immediately buying a house. Pricing is shown as a general planning guide — not just whatever happens to be vacant today.</p>
+<div class="criteria">
+<span class="pill">Target ≤ $2,500/mo</span>
+<span class="pill">Quiet matters a lot</span>
+<span class="pill">Professional management</span>
+<span class="pill neutral">Beaver Dam is the family reference point</span>
+<span class="pill neutral">Move window: by April 2027</span></div><div class="timing-note"><strong>Timing:</strong> The current Illinois lease ends in April 2027, so today's vacancies are only a data point. Smaller floor plans that are unavailable now still matter, and 2027 openings like Carillon are fully in play.</div>
+</div>
+</header><main class="wrap"><div id="benchmarks"></div><div id="alternatives"></div><div class="section-head">
+<h2>How to use the list</h2>
+</div><p class="note">How to read pricing: use these as planning ranges, not promises. Availability changes constantly, and the April 2027 move window means today's empty units are much less important than whether a property has the right floor plans and a realistic general price level. Route mileage/times are also approximate; each row links to live Google Maps. Exterior/interior thumbnails are stored with this site so they load reliably; use the Official gallery button for the property's full image set.</p></main><footer>
+<div class="wrap"><strong>Initial Wisconsin housing shortlist.</strong> The list is intentionally selective — these are places that offer a genuinely different quality-of-life proposition, not every building that markets itself as “luxury.”</div>
+</footer><script>Promise.all([fetch('sections/benchmarks.html').then(r=>r.text()),fetch('sections/alternatives.html').then(r=>r.text())]).then(([a,b])=>{document.getElementById('benchmarks').innerHTML=a;document.getElementById('alternatives').innerHTML=b;});</script></body></html>
