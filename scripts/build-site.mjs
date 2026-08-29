@@ -9,15 +9,18 @@ const assets = {
     'https://thecouturemke.com/wp-content/uploads/elementor/thumbs/Couture-Milwaukee-Apartments-DSC_8231-copy-1-scaled-rpfko4h7trovimuyzw69se7kd03g68h2jrb9tn3pq8.jpg'
   ],
   '777-exterior.webp': [
+    'https://image.thum.io/get/width/1400/noanimate/https://www.live7seventy7.com/'
+  ],
+  '777-interior.webp': [
     'https://i.rent.com/t_3x2_fixed_webp_w1440/ad8003ecea157860779595639d9dd9ba',
     'https://i.rent.com/t_3x2_fixed_webp_w720/d324e6654c0286366f8a4fbdde19b638'
   ],
-  '777-interior.webp': [
-    'https://i.rent.com/t_3x2_fixed_webp_w720/f97d44c9c3f5c39eba00230d5c7bf41e',
-    'https://i.rent.com/t_3x2_fixed_webp_w720/c7e1734845d26498b0ea8f0c3270263d'
+  'ovation-exterior.jpg': [
+    'https://image.thum.io/get/width/1400/noanimate/https://www.apartments.com/ovation-309-madison-wi/1p8z475/'
   ],
-  'ovation-exterior.jpg': ['https://ovation309.com/wp-content/uploads/EXTERIOR04.jpg'],
-  'ovation-interior.jpg': ['https://ovation309.com/wp-content/uploads/Gallery_1bedroom_01-1.jpg'],
+  'ovation-interior.jpg': [
+    'https://image.thum.io/get/width/1400/noanimate/https://ovation309.com/gallery/'
+  ],
   'heyday-exterior.jpg': [
     'https://heydaysp.com/wp-content/uploads/2024/07/HH-43F.jpg',
     'https://chambermaster.blob.core.windows.net/images/customers/2844/members/2534/photos/GALLERY_MAIN/Heyday_Sun_Prairie_Rendering_3.jpg'
