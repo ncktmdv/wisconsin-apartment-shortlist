@@ -8,18 +8,20 @@ const assets = {
   'couture-interior.jpg': [
     'https://thecouturemke.com/wp-content/uploads/elementor/thumbs/Couture-Milwaukee-Apartments-DSC_8231-copy-1-scaled-rpfko4h7trovimuyzw69se7kd03g68h2jrb9tn3pq8.jpg'
   ],
-  '777-exterior.webp': [
-    'https://image.thum.io/get/width/1400/noanimate/https://www.live7seventy7.com/'
+  '777-exterior.jpg': [
+    'https://www.live7seventy7.com/wp-content/uploads/2023/11/7SEVENTY7_Ext_BuildingPrimaryPhoto_MikeMiller_March2018.jpg',
+    'https://www.rasmith.com/wp-content/uploads/2021/01/NM-Residential-Tower-1_preview_maxWidth_1600_maxHeight_1600-1024x678.jpg'
   ],
-  '777-interior.webp': [
-    'https://i.rent.com/t_3x2_fixed_webp_w1440/ad8003ecea157860779595639d9dd9ba',
-    'https://i.rent.com/t_3x2_fixed_webp_w720/d324e6654c0286366f8a4fbdde19b638'
+  '777-interior.jpg': [
+    'https://www.live7seventy7.com/wp-content/uploads/2021/07/777_Int_Amenities_AltoLounge_July2018-1.jpg',
+    'https://images1.apartments.com/i2/6UIFfC8zLFbhscbbNNMuynJWEBDqSSPK195vmLzReL4/111/7seventy7-milwaukee-wi-building-photo.jpg'
   ],
   'ovation-exterior.jpg': [
-    'https://image.thum.io/get/width/1400/noanimate/https://www.apartments.com/ovation-309-madison-wi/1p8z475/'
+    'https://static.wixstatic.com/media/e42ff6_f9163144fee448c7baa85587468f2478~mv2.jpg/v1/fill/w_980%2Ch_653%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_auto/e42ff6_f9163144fee448c7baa85587468f2478~mv2.jpg',
+    'https://images1.loopnet.com/i2/hyMWR89mhgyLn7-mNDz1PjbFl8Ww7uwRL_-OI9nF-qY/116/309-W-Johnson-St-Madison-WI-Building-Photo-3-LargeHighDefinition.jpg'
   ],
-  'ovation-interior.jpg': [
-    'https://image.thum.io/get/width/1400/noanimate/https://ovation309.com/gallery/'
+  'ovation-interior.webp': [
+    'https://ar.rdcpix.com/588d5941063d1e6257d6a44ab1c24a22c-f3762243075rd-w1280_h960.webp'
   ],
   'heyday-exterior.jpg': [
     'https://heydaysp.com/wp-content/uploads/2024/07/HH-43F.jpg',
